@@ -15,7 +15,7 @@ const App = () => {
   }, []);
 
   const sendToServer = async () => {
-    const response = await fetch("https://your-server-domain.com/api/data", {
+    const response = await fetch("https://swoop-three.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
