@@ -4,6 +4,7 @@ interface TelegramWebApp {
     close: () => void;
     ready: () => void;
     sendData: (data: string) => void;
+    showPopup: (data: any) => void;
     // Добавьте другие методы и свойства, если они понадобятся
 }
 
